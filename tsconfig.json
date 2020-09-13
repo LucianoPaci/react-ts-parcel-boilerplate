@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        /* Specify ECMAScript target version */
+        "target": "es5",
+        /* Specify module code generation */
+        "module": "commonjs",
+        /* Specify JSX code generation */
+        "jsx": "react",
+        /* Generate corresponding .map files */
+        "sourceMap": true,
+        /* Enable all strict type-checking options */
+        "strict": true,
+        /* Specify module resolution strategy */
+        "outDir": "./dist/",
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "allowJs": true
+    },
+    "include": ["./src/**/*"],
+    "exclude": [".git", "node_modules"]
+}
